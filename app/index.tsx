@@ -19,10 +19,11 @@ export default function RootLayoutNav() {
 }
 
 const styles = StyleSheet.create({
+  
   container: {
     display: 'flex',
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
     alignItems: 'center',
     justifyContent: 'center',
   },
