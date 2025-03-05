@@ -1,14 +1,13 @@
 import React from 'react'
-import { Slot, Stack, Link } from 'expo-router'
+import { Stack} from 'expo-router';
 
 const RootLayout = () => {
   return (
     <Stack>
-      <Stack.Screen name="index" options={{ headerShown: true }} />
+      <Stack.Screen name='index' options={{headerShown: false}}/>
+      <Stack.Screen name='support' options={{headerShown: false}}/>
     </Stack>
   )
 }
-
-// _layout.tsx shortcut: rnfes
 
 export default RootLayout
